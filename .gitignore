@@ -1,0 +1,61 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# testing
+coverage
+junit.xml
+
+# ci
+gl-codequality.json
+e2e-junit.xml
+chromaticJunit.xml
+
+# next.js
+.next/
+out/
+build
+.swc/
+dist/
+.vercel/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# turbo
+.turbo
+
+#pnpm
+.pnpm-store
+
+# storybook
+storybook-static
+build-storybook.log
+
+# lighthouse ci
+.lighthouseci
+
+# Linaria Cache
+.linaria_cache
+
+!packages/ci-reporting/src/__tests__/__fixtures__/monorepo/apps/nextjs/.next
+!packages/ci-reporting/src/__tests__/__fixtures__/monorepo/apps/cra/build
+packages/design-tokens/style-dictionary/tokens/
+
+test-tmp/

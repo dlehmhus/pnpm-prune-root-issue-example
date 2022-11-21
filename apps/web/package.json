@@ -1,0 +1,23 @@
+{
+  "name": "web",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@acme/next-config": "workspace:*",
+    "next": "13.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@acme/tsconfig": "workspace:0.0.0",
+    "@types/node": "16.18.3",
+    "@types/react": "18.0.25",
+    "eslint": "8.28.0",
+    "typescript": "4.9.3"
+  }
+}

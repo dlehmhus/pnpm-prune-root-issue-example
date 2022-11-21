@@ -1,0 +1,12 @@
+{
+  "name": "@acme/next-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "next": "13.0.4"
+  }
+}
